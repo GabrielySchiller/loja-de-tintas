@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/loja-de-tintas/static/css/main.b1fb2667.css",
+    "main.js": "/loja-de-tintas/static/js/main.885c0b57.js",
+    "index.html": "/loja-de-tintas/index.html",
+    "main.b1fb2667.css.map": "/loja-de-tintas/static/css/main.b1fb2667.css.map",
+    "main.885c0b57.js.map": "/loja-de-tintas/static/js/main.885c0b57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1fb2667.css",
+    "static/js/main.885c0b57.js"
+  ]
+}
