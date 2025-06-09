@@ -41,6 +41,12 @@
       
     }
 
+     #sobre-nos .img-sobre img{
+      width: 270px ;
+      margin-bottom: -30px;
+      border-radius: 5px;
+    }
+
      #sobre-nos .container-sobre .textos-sobre{
       width: 80%;
        justify-content: center;
@@ -83,7 +89,7 @@
       }
       
      #home .textos-home  .title-home{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         letter-spacing: 1.5px;
         width: 310px;
       }
@@ -119,6 +125,6 @@
     }
 
     #sobre-nos .img-sobre img{
-      width: 270px ;
+      width: 260px ;
     }
 }
