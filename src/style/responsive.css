@@ -1,0 +1,124 @@
+@media (max-width: 1100px){
+  #home .textos-home{
+    margin-top: -130px;
+  }
+}
+
+
+@media (max-width: 900px){
+ body .menu-desktop{
+    display: none;
+  }
+
+ body .menu-mobile{
+    display: flex;
+  }
+}
+
+@media (max-width: 770px){
+    #home .img-home img{
+      width: 600px;
+       bottom: -100px;
+    }
+
+    .informacoes-servicos-loja .container-informacoes{
+      display: flex;
+      width: 70%;
+
+    }
+
+    #acessorios .title-acessorios{
+      font-size: 1.9rem;
+    }
+
+    #sobre-nos .title-sobre p{
+      font-size: 1.9rem;
+    }
+
+    #sobre-nos .container-sobre{
+      flex-direction: column;
+      margin-top: 30px;
+      
+    }
+
+     #sobre-nos .container-sobre .textos-sobre{
+      width: 80%;
+       justify-content: center;
+       align-items: center;
+     }
+}
+
+@media (max-width: 600px){
+
+  .menu-mobile .menu-list-mobile.ativo{
+     padding: 0px 10px;
+     }
+
+      #home .textos-home{
+        margin-top: -40px;
+      }
+
+     .textos-home  .title-home{
+        font-size: 1.35rem;
+        width: 400px;
+      }
+
+       #home .img-home img{
+        width: 500px;
+        bottom: -100px;
+    }
+       
+
+}
+
+@media (max-width: 440px){
+    .menu-mobile .menu-list-mobile.ativo{
+      width: 50%;
+      font-size: 0.8rem;
+     }
+
+    .menu-list-mobile.ativo .btn-menu-contato-mobile a{
+        font-size: 0.7rem;
+        margin-left: 3px;
+      }
+      
+     #home .textos-home  .title-home{
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        width: 310px;
+      }
+
+      #home .btns-home .link-home{
+         width:220px ;
+         height: 45px;
+         font-size: 0.8rem;
+      }
+
+     #home .img-home img{
+        width: 410px;
+        bottom: -80px;
+     }
+
+     #catalogo .title-catalogo p{
+        font-size: 1.8rem;
+      }
+      
+      #acessorios .title-acessorios p{
+       font-size: 1.7rem;
+       text-align: center;
+       padding: 0px 25px;
+
+     }
+
+      #sobre-nos .title-sobre p{
+      font-size: 1.5rem;
+    }
+
+    #sobre-nos .span-sobre{
+      font-size:  1.5rem;
+    }
+
+    #sobre-nos .img-sobre img{
+      width: 270px ;
+    }
+}

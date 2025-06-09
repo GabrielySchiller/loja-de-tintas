@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+     font-family: "Noto Sans", sans-serif;
+     position: relative;
+}
+
+.menu-desktop{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 2px 5px rgba(28, 28, 28, 0.459), 5px 5px 10px rgba(28, 28, 28, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 12;
+    background-color: white;
+}
+
+.logo img{
+    margin-left: 25px;
+    width: 45px;
+}
+
+.menu-links ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;
+
+}
+
+.menu-links ul li a{
+    width: 200px;
+    color: black;
+
+}
+
+.menu-links ul li a:hover{
+    border-bottom: 5px solid blue;
+    padding-bottom: 20px;
+}
+
+nav ul .btn-menu-contato a{
+    background-color: rgb(2, 2, 255);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+nav ul .btn-menu-contato a:hover{
+    background-color: rgb(112, 184, 252);
+    padding-bottom: 5px;
+}
+
+/* MENU MOBILE */
+
+ .menu-mobile{
+    width: 100%;
+    background-color: white;
+    z-index: 6;
+     display: flex;
+     display: none;
+     height: 70px;
+     justify-content: space-between;
+     align-items: center;
+     padding:5px 30px;
+     position: relative;
+     position: fixed;
+     top: 0px;
+    
+} 
+
+
+.sair-menu{
+    width: 45px;
+    margin-left: -20px;
+}
+
+
+.menu-toggle.bar  img{
+    width: 40px;
+}
+
+
+.menu-list-mobile.ativo{
+    width: 43%;
+    display: flex;
+    z-index: 4;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    height: 100vh;
+}
+
+.menu-list-mobile{
+    display: none;
+}
+
+.menu-list-mobile ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.btn-menu-mobile a{
+    width: 200px;
+    margin-left: 10px;
+    color: black;
+    padding: 2px 5px;
+}
+
+.btn-menu-mobile a:hover{
+    transition: 0.2s;
+   background-color: rgb(185, 186, 187);
+   padding: 2px 5px;
+   border-radius: 3px;
+}
+
+.btn-menu-contato-mobile a{
+    color: white;
+    background-color: rgb(36, 36, 247);
+    margin-left: 10px;
+    padding: 3px 8px;
+    border-radius: 3px;
+
+}
+
+.btn-menu-contato-mobile a:hover{
+     background-color: rgb(112, 184, 252)
+
+}
+
+
+/* HOME */
+
+#home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 220, 252);
+    height: 90vh;
+    /* background-image: url('');
+    background-size:1000px ;
+    background-repeat: no-repeat;
+    background-position: right bottom; */
+    margin-bottom: 100px;
+    position: relative;
+
+}
+
+.textos-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    gap: 40px;
+}
+
+.title-home{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 4.5px 10px rgb(4, 4, 114);
+    font-size: 1.47rem;
+    padding: 10px;
+    border-radius: 50px 50px;
+    letter-spacing: 1.4px;
+}
+
+.btns-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+ #home .btns-home a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    width:385px ;
+    height: 40px;
+    background-color:rgb(34, 0, 255) ;
+    cursor: pointer;
+    font-size: 0.97rem;
+      border-left: solid transparent 3px ;
+     border-right:solid transparent 3px ;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.266), 5px 5px 10px rgba(0, 0, 0, 0.192); 
+}
+
+#home .btns-home a:hover{
+    transition: 0.3s;
+    background-color: azure;
+    color: black;
+    border-left: solid 4px rgb(244, 170, 31);
+    border-right: solid 4px blue;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.img-home img{
+    width: 690px;
+    position: absolute;
+    bottom: -140px;
+    right: -15px;
+}
+
+/* CATALOGO */
+    #catalogo{
+        width: 100%;
+    }
+
+.title-catalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: rgb(28, 28, 28);
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.49);
+}
+
+.catalogo-container{
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.card-tinta{
+    background-color: rgb(247, 250, 250);
+    box-shadow: 0px 2px 5px  rgba(28, 28, 28, 0.459), 5px 5px 10px rgba(28, 28, 28, 0.258);
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 180px;
+    gap: 3px;
+
+}
+.container-img-tinta{
+    display: flex;
+    justify-content: center;
+}
+
+.container-img-tinta img{
+    width: 100%;
+    height: 150px;
+}
+
+.nome-tinta{
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    margin-left: 5px;
+}
+
+
+
+/* INFORMAÇAO LOJA */
+
+.informacoes-servicos-loja{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.container-informacoes{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-infomacoes{
+    background-color: rgb(234, 234, 234);
+    width: 230px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+   box-shadow: 0px 2px 5px  rgba(28, 28, 28, 0.459), 5px 5px 10px rgba(28, 28, 28, 0.258) ;
+   padding: 5px 10px;
+
+}
+
+.img-informacao{
+    width: 25px;
+    height: 25px;
+}
+
+.title-informacoes{
+    font-weight: 600;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.paragrafo-informacoes{
+   
+    font-size: 0.7rem;
+}
+
+
+/* ACESSORIOS */
+
+#acessorios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.title-acessorios {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+     text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.49);
+}
+
+.container-acessorios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 99%;
+    gap: 20px;
+}
+
+.card-acessorio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    background-color: rgb(236, 235, 235);
+     box-shadow: 0px 5px 4px  rgba(28, 28, 28, 0.459), 0px 6px 3px rgba(28, 28, 28, 0.258) ;
+     gap: 10px;
+     border-radius: 2px;
+     border: solid transparent 3px;
+     
+    }
+    
+    .card-acessorio:hover{
+        transition: 0.2s;
+        /* border: solid rgb(134, 194, 249)  3px; */
+        box-shadow: 0px 5px 4px  rgba(28, 28, 28, 0.764), 1px 6px 5px rgba(28, 28, 28, 0.495) ;
+
+}
+
+.desconto-faixa-acessorio{
+    width: 50%;
+    background-color: blue;
+    color: white;
+    padding: 1px;
+    text-align: center;font-size: 0.79rem;
+    border-radius: 2px;
+}
+
+.img-acessorio{
+    width: 160px;
+    height: 170px;
+    text-align: center;
+}
+
+.img-acessorio img{
+    width: 140px;
+    margin-top: 10px;
+   
+}
+.descricao-acessorio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 110px;
+}
+
+.nome-acessorio{
+    font-size: 0.8rem;
+    color: black;
+}
+
+.caixa-preco-acessorio{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.destaque-preco{
+    color: blue;
+}
+
+.preco-acessorio{
+    font-size: 0.8rem;
+    color: black;
+}
+
+/* SOBRE-NOS */
+
+#sobre-nos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.title-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.49);
+}
+.title-sobre p{
+
+     font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    
+}
+
+.span-sobre{
+    letter-spacing: 3px;
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: rgb(18, 31, 149);
+     font-family: "Oswald", sans-serif;
+}
+
+.container-sobre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.img-sobre img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.textos-sobre{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.paragrafo-sobre{
+    text-align: justify;
+}
+
+.horario{
+    background-color: rgb(184, 218, 254);
+     box-shadow: 10px 10px 10px rgba(7, 2, 94, 0.266), 5px 5px 10px rgba(0, 0, 0, 0.192); 
+    border-radius: 5px;
+    padding:  10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.horario .title-horario{
+    font-size: 1.1rem;
+    color: blue;
+     font-family: "Oswald", sans-serif;
+     letter-spacing: 2.2px;
+     text-shadow: 0px 0px 3px rgba(23, 8, 161, 0.426);
+}
+
+.horario p{
+    width: 300px;
+    font-size: 0.9rem;
+    text-align: justify;
+    margin-left: 8px;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(112, 184, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    gap: 2px;
+}
+footer p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer p img{
+    width: 20px;
+}
+
+ .links-footer{
+    display: flex;
+    gap: 10px;
+ } 
