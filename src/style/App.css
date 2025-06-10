@@ -47,12 +47,12 @@
 }
 
 .menu-links ul li a:hover{
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid rgb(125, 125, 127);
     padding-bottom: 20px;
 }
 
 nav ul .btn-menu-contato a{
-    background-color: rgb(2, 2, 255);
+    background-color: rgb(51, 51, 255);
     color: white;
     padding: 5px 10px;
     border-radius: 8px;
@@ -127,7 +127,7 @@ nav ul .btn-menu-contato a:hover{
 .btn-menu-mobile a:hover{
     transition: 0.2s;
    background-color: rgb(185, 186, 187);
-   padding: 2px 5px;
+   padding: 2px 6px;
    border-radius: 3px;
 }
 
@@ -141,7 +141,7 @@ nav ul .btn-menu-contato a:hover{
 }
 
 .btn-menu-contato-mobile a:hover{
-     background-color: rgb(112, 184, 252)
+     background-color: rgb(94, 176, 253)
 
 }
 
@@ -153,22 +153,22 @@ nav ul .btn-menu-contato a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(179, 220, 252);
+    background: #6eb5eb;
+    background: linear-gradient(0deg, rgb(148, 209, 255) 23%, rgb(41, 55, 255) 100%);
     height: 90vh;
-    /* background-image: url('');
-    background-size:1000px ;
-    background-repeat: no-repeat;
-    background-position: right bottom; */
     margin-bottom: 100px;
     position: relative;
 
 }
 
 .textos-home{
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 40%;
+    height: 500px;
     gap: 40px;
 }
 
@@ -179,8 +179,8 @@ nav ul .btn-menu-contato a:hover{
     align-items: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 4.5px 10px rgb(4, 4, 114);
-    font-size: 1.47rem;
+    text-shadow: 1px 4.5px 10px rgb(2, 2, 42);
+    font-size: 1.48rem;
     padding: 10px;
     border-radius: 50px 50px;
     letter-spacing: 1.4px;
@@ -205,7 +205,7 @@ nav ul .btn-menu-contato a:hover{
     padding: 10px;
     width:385px ;
     height: 40px;
-    background-color:rgb(34, 0, 255) ;
+    background-color:rgb(49, 18, 255) ;
     cursor: pointer;
     font-size: 0.97rem;
       border-left: solid transparent 3px ;
@@ -226,8 +226,8 @@ nav ul .btn-menu-contato a:hover{
 .img-home img{
     width: 690px;
     position: absolute;
-    bottom: -140px;
-    right: -15px;
+    bottom: -130px;
+    right: -35px;
 }
 
 /* CATALOGO */
