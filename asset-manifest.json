@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/loja-de-tintas/static/css/main.e3f9d532.css",
+    "main.css": "/loja-de-tintas/static/css/main.192871ef.css",
     "main.js": "/loja-de-tintas/static/js/main.3d4ae20a.js",
     "index.html": "/loja-de-tintas/index.html",
-    "main.e3f9d532.css.map": "/loja-de-tintas/static/css/main.e3f9d532.css.map",
+    "main.192871ef.css.map": "/loja-de-tintas/static/css/main.192871ef.css.map",
     "main.3d4ae20a.js.map": "/loja-de-tintas/static/js/main.3d4ae20a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3f9d532.css",
+    "static/css/main.192871ef.css",
     "static/js/main.3d4ae20a.js"
   ]
 }
