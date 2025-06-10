@@ -92,7 +92,7 @@ function App() {
             </li>
               
             <li className="btn-menu-mobile">
-              <a href="acessorios"> Acessórios complementares </a>
+              <a href="#acessorios"> Acessórios complementares </a>
             </li>
 
             <li className="btn-menu-mobile">
